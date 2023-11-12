@@ -3,8 +3,10 @@
 // Description: first C++ code; basic hello world
 
 #include <iostream>
+using namespace std;
 
-int main() {
-    std::cout << "Hello world!";
+int main() 
+{
+    cout << "Hello world!";
     return 0;
 }

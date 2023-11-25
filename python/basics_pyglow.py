@@ -3,7 +3,7 @@
 # Description: code for basic python operations
 
 # modules
-#import piglow
+import piglow
 import time
 import os
 
@@ -27,4 +27,5 @@ while bool:
     if i == 10:
         
         bool = False
+        print(i)
         print('Code finished')

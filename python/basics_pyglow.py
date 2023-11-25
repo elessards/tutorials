@@ -8,7 +8,7 @@ import time
 import os
 
 # initialize
-i = 1
+i = 0
 bool = True
 
 while bool:
@@ -19,13 +19,21 @@ while bool:
 
     print(i)
     time.sleep(1)
+
+    # LED parameters
+    piglow.all(0)
+    piglow.set([i],100)
+    piglow.show()
     
     # iterate
     i += 1
 
     # stop program with if statement
-    if i == 10:
+    if i == 15:
         
-        bool = False
+        clear = lambda: os.system('clear')
+        clear()
         print(i)
         print('Code finished')
+
+        bool = False

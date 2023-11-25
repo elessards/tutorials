@@ -18,7 +18,6 @@ while bool:
     clear()
 
     print(i)
-    time.sleep(1)
 
     # LED parameters
     piglow.all(0)
@@ -28,8 +27,11 @@ while bool:
     # iterate
     i += 1
 
+    # pause
+    time.sleep(2)
+
     # stop program with if statement
-    if i == 15:
+    if i == 18:
         
         clear = lambda: os.system('clear')
         clear()

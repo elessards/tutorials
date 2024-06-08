@@ -1,7 +1,13 @@
 # Tutorials
-This repository contains turtorials for learning Python and C code.
+This repository contains turtorials for learning coding.
 
-## c
+## arduino
+Aduino projects
+
+## ccode
+C code
+
+## cppcode
 C++ code
 
 ## python
